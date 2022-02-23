@@ -2,14 +2,6 @@
 import React from 'react';
 //htmlにコンポーネントを反映させる
 import ReactDom from 'react-dom';
-
-const App = ()=>{
-  return (
-  <>
-  <h1>こんにちは!</h1>
-  <p>おはよ</p>
-  </>
-  );
-};
+import App from "./App";
 
 ReactDom.render(<App/>,document.getElementById("root"));
